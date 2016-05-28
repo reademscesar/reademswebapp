@@ -1,73 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  background-color: #fff;
-  color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+/* End of css reset */
+
+.page {
+  margin: 36px auto;
+  width: 45%;  /* page target is 864px, context is 1920px */
 }
 
-pre {
-  background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
+.main {
+  margin: 0 auto 55px;
+  width: 69.4%;  /* 600/864 */
 }
 
-a {
-  color: #000;
-
-  &:visited {
-    color: #666;
-  }
-
-  &:hover {
-    color: #fff;
-    background-color: #000;
-  }
+.header {
+  margin: 50px auto;
 }
 
-div {
-  &.field, &.actions {
-    margin-bottom: 10px;
-  }
+.logo {
+  display: inline;
 }
 
-#notice {
-  color: green;
+.nav-right {
+  float: right;
 }
 
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
+.languages, .about {
+  display: inline;
+  padding: 0px, 5px;
 }
 
-#error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
 
-  h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px;
-    margin-bottom: 0px;
-    background-color: #c00;
-    color: #fff;
-  }
+// body {
+//   background-color: #fff;
+//   color: #333;
+//   font-family: verdana, arial, helvetica, sans-serif;
+//   font-size: 13px;
+//   line-height: 18px;
+// }
 
-  ul li {
-    font-size: 12px;
-    list-style: square;
-  }
-}
+// p, ol, ul, td {
+//   font-family: verdana, arial, helvetica, sans-serif;
+//   font-size: 13px;
+//   line-height: 18px;
+// }
+
+// pre {
+//   background-color: #eee;
+//   padding: 10px;
+//   font-size: 11px;
+// }
+
+// a {
+//   color: #000;
+
+//   &:visited {
+//     color: #666;
+//   }
+
+//   &:hover {
+//     color: #fff;
+//     background-color: #000;
+//   }
+// }
+
+// div {
+//   &.field, &.actions {
+//     margin-bottom: 10px;
+//   }
+// }
+
+// #notice {
+//   color: green;
+// }
+
+// .field_with_errors {
+//   padding: 2px;
+//   background-color: red;
+//   display: table;
+// }
+
+// #error_explanation {
+//   width: 450px;
+//   border: 2px solid red;
+//   padding: 7px;
+//   padding-bottom: 0;
+//   margin-bottom: 20px;
+//   background-color: #f0f0f0;
+
+//   h2 {
+//     text-align: left;
+//     font-weight: bold;
+//     padding: 5px 5px 5px 15px;
+//     font-size: 12px;
+//     margin: -7px;
+//     margin-bottom: 0px;
+//     background-color: #c00;
+//     color: #fff;
+//   }
+
+//   ul li {
+//     font-size: 12px;
+//     list-style: square;
+//   }
+// }
